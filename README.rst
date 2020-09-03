@@ -1,6 +1,7 @@
 =================
 openexchangerates
 =================
+FORK FIXED FOR PYTHON 3.x
 
 This is a simple python client implementation of https://openexchangerates.org
 web services.
@@ -8,10 +9,10 @@ web services.
 Install
 -------
 
-openexchangerates is avaiable on pypi repositories. Just simply install
-by using ``easy_install`` or ``pip``::
+install
+by using ``pip``::
 
-    $ pip install openexchangerates
+    $ pip install git+https://github.com/AndrewDelarge/openexchangerates
 
 Usage
 -----
